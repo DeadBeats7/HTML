@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 테두리 만들기</title>
+    <style>
+       p {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            border: 15px solid; /* border-width, border-style 동시 지정 */
+        }
+        #round { border-image: url("media/checkpattern.png") 15 round;}
+    </style>
+</head>
+<body>
+    <h3>이미지 테두리 만들기</h3>
+    <hr>
+    <p id="round"> <img src="media/raccoon.jpeg" width="200px" height="200px"> </p>
+</body>
+</html>
